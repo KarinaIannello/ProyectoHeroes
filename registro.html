@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleContacto.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <header>
+        <h3 class="descuentos">Descuentos 20%</h3> 
+        <h1 class="titulo">Heroes</h1>
+    </header>
+
+    <form class="usuario" action="/registro" method="POST"> 
+        <h3>Registro</h3>
+        <label for="nombre">Nombre y apellido</label> 
+        <input type="text" name="nombre" id="nombre"> 
+        <label for="email">Correo Electronico</label> 
+        <input type="email" name="email" id="email"> 
+        <label for="contraseña">Contraseña</label> 
+        <input type="password" name="contraseña" id="contraseña"> 
+        <select name="pais" class="listaPais">
+            <option value="arg">Argentina</option>
+            <option value="bra">Brasil</option>
+            <option value="col">Colombia</option>
+        </select>
+        <div class="contenedorBotones">
+            <input type="submit" value="Entrar" id="botonEntrar"> 
+            <input type="reset" value="Resetear" id="botonResetear">
+        </div>
+        <p class="usuarioRegistrado">¿Ya tenés una cuenta? <a href="/login.html">Ingresar</a></p>
+    </form>
+    
+    <footer>
+        <h4>Todos los derechos reservados a FRONT END 1</h4>
+    </footer>
+
+</body>
+</html>

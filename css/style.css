@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    margin:0%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.descuentos {
+    background-color: #1CD1B0;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.titulo {
+    background-color: #00669F;
+    margin: 0px;
+    padding-left: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding:100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 221, 221);
+    margin: 25px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.fondo {
+    width: 100%;
+}
+
+.personaje {
+    border-radius: 50%;
+    top: 300px;
+    
+}
+
+section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    position: center;
+}
+footer {
+    background-color: #00669F;
+    color: white;
+    height: 30px;
+    padding-left: 20px;
+}
+
+@media (max-width:425px) {
+    main {
+        flex-direction: column;
+    }
+
+    .personaje {
+        border-radius: 50%;
+        top:0;
+    }
+
+    .card {
+        justify-content: center;
+        margin:0%;
+            
+    }
+}

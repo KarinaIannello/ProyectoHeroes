@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*FORMULARIO*/
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10%;
+}
+
+#nombre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#comentario {
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.listaPais {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.contenedorBotones {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+#botonEntrar {
+    background-color: #1CD1B0;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#botonResetear {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.unicoBoton {
+    margin-top: 10px;
+}
+
+.usuarioRegistrado {
+    margin-left: 40px;
+}
+
+.usuarioNoRegistrado {
+    margin-left: 30px;
+}
+/*FIN FORMULARIO*/
+
+footer {
+    width: 100%;
+    height: 40px;
+    padding-left: 0px;
+}
+
+h4 {
+    margin:10px;
+}

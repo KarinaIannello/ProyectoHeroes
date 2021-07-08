@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    top:0;
+}
+
+/*EL FORMULARIO*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    background-color: #00669F;
+    align-self: center;
+    color: white;
+    width: 60%;
+    align-items: center;
+}
+
+/*ELEMENTOS INTARNOS DEL FORM*/
+
+h2 {
+    width: 100%;
+    text-align: center;
+}
+
+h2::after {
+    content: url("/img/batmanLogo.png");
+}
+
+#comentario {
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input:focus {
+    color: orange;
+    font-weight: bold;
+}
+.campos {
+    margin: 5px;
+}
+
+.campoObligatorio::before {
+    content: "*";
+    color: red;
+}
+
+.avatar {
+    display: inline;
+}
+
+.tercerCampo {
+    display: flex;
+    margin-top: 5px;
+}
+
+#descripcion {
+    height: 290px;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+
+
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+hr {
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 15px;
+}
